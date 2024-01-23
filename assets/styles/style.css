@@ -37,10 +37,14 @@ ul {
   list-style: none;
 }
 
+.header__navigation {
+  border-bottom: 1px solid rgb(130, 130, 130);
+}
 .header__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 33px 0;
 }
 .header__link {
   color: #828282;
@@ -48,6 +52,10 @@ ul {
   font-weight: 400;
   line-height: normal;
   transition: all ease 0.3s;
+  padding: 12px 15px;
+}
+.header__link:first-child {
+  padding: 12px 0 12px 0;
 }
 .header__link:hover {
   color: var(--Black, #070707);

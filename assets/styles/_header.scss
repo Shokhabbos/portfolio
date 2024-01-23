@@ -1,13 +1,23 @@
 .header {
+  &__navigation {
+    border-bottom: 1px solid rgba(130, 130, 130, 1);
+  }
   &__list {
     @include dFlex;
+    padding: 33px 0;
   }
+
   &__link {
     color: #828282;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
     transition: all ease 0.3s;
+    padding: 12px 15px;
+    &:first-child {
+      padding: 12px 0 12px 0;
+    }
+
     &:hover {
       color: var(--Black, #070707);
       font-weight: 600;
