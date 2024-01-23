@@ -1,0 +1,16 @@
+.header {
+  &__list {
+    @include dFlex;
+  }
+  &__link {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    transition: all ease 0.3s;
+    &:hover {
+      color: var(--Black, #070707);
+      font-weight: 600;
+    }
+  }
+}
